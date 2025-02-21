@@ -201,5 +201,151 @@ main{
     color: var(--color-1);
 }   
 /****************************************************************************************************/
-/* ------------------------------------ "section__how-to-play" ------------------------------------ */
+/* --------------------------------------- "section__rules" --------------------------------------- */
+.section__rules{
+    /* background: red; */
+    display: flex;
+    justify-content: center;
 
+}
+.div__rules{
+    /* background: blue; */
+
+    width: 1099px;
+    height: 1077px;
+}
+.div__rule1{
+    display: flex;
+}
+.div__rule1 p{
+    width: 752px;
+    height: 187px;
+}
+.div__rule1 img{
+    width: 162px;
+    height: 162px;
+}
+.div__rule2{
+    display: flex;
+}
+.div__rule2 p{
+    width: 768px;
+    height: 143px;
+}
+.div__rule2 img{
+    width: 141px;
+    height: 141px;
+}
+.div__rule3{
+    display: flex;
+}
+.div__rule3 p{
+    width: 750px;
+    height: 178px;
+}
+.div__rule3 img{
+    width: 161px;
+    height: 161px;
+}
+.div__rule4{
+    display: flex;
+}
+.div__rule4 p{
+    width: 733px;
+    height: 214px;
+}
+.div__rule4 img{
+    width: 161px;
+    height: 161px;
+}
+.div__rule5{
+    display: flex;
+}
+.div__rule5 p{
+    width: 733px;
+    height: 98px;
+}
+.div__rule5 img{
+    width: 162px;
+    height: 159px;
+}
+.div_circle{
+    margin-right: 55px;
+    width: 100px;
+    height: 100px;
+}
+.circle img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.div_circle h3{
+    position: relative;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 64px;
+    color: var(--color-2);
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 35px;
+}
+.div__rules a{
+    background: var(--color-1);
+    align-items: center;
+    text-align: center;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 64px;
+    color: var(--color-2);
+    text-decoration: none;
+}
+.div__rules p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 28px;
+    color: var(--color-1);
+    width: 752px;
+    height: 187px;
+}
+.div__rules img{
+}
+.div__rule{
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    height: 187px;
+}
+/****************************************************************************************************/
+/* --------------------------------------- section__support-us"--------------------------------------- */
+.section__support-us{
+
+}
+.div__support-us{
+
+}
+.div__support-us h3{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 7px;
+    color: var(--color-1);
+}
+.div__support-us p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 36px;
+    color: var(--color-1);
+    line-height: 44px;
+}
+.div__contribution{
+
+}
+.div__contribution img{
+    
+}
+.div__contribution a{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 36px;
+    color: var(--color-2);
+    text-decoration: none;
+    width: 237px;
+    height: 54px;
+    border-radius: 31.5px;
+}
