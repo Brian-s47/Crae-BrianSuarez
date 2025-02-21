@@ -1,7 +1,18 @@
 :root{
-    --color-1:#000000;
+    --color-1:#FFFFFF;
+    --color-2:#000000;
+    --color-3:#141414;
+    --color-4:#171717;
+    --color-5:#2ECDFF;
+    --color-6:#383838;
+    --color-7:#2C2C2C;
+    --color-8:#707070;
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "RobotoCondensed-Bold";
+    src: url(../storage/font/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: "RobotoCondensed-Regular";
+    src: url(../storage/font/RobotoCondensed-Regular.ttf);
 }
