@@ -11,7 +11,7 @@ body{
 }
 /* ------------------------------------------ Main ----------------------------------------- */
 main{
-    /* background: var(--color-3); */
+    background: var(--color-3);
     display: grid;
     grid-template-rows: 141px 687px 355px 1330px 829px 993px;
     grid-template-areas:"section__header"
@@ -169,3 +169,37 @@ main{
 .div__social-networks img{
     
 }
+/****************************************************************************************************/
+/* ------------------------------------ "section__how-to-play" ------------------------------------ */
+.section__how-to-play{
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    
+}
+.div__how-to-play {
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 41px;
+
+    width: 654px;
+    height: 258px;
+
+}
+.div__how-to-play h3{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 64px;
+    color: var(--color-1);
+}
+.div__how-to-play p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 36px;
+    color: var(--color-1);
+}   
+/****************************************************************************************************/
+/* ------------------------------------ "section__how-to-play" ------------------------------------ */
+
