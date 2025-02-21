@@ -4,3 +4,89 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* ------------------------------------- Body ------------------------------------- */
+body{
+    width: 1440px;
+    height: 3911px;
+}
+/* ------------------------------------- Main ------------------------------------- */
+main{
+    background: var(--color-3);
+    display: grid;
+    grid-template-rows: 141px 687px 355px 1330px 829px 993px;
+    grid-template-areas:"section__header"
+    "section__initianDescription"
+    "section__how-to-play"
+    "section__rules"
+    "section__support-us"
+    "section__About-us"
+    ;
+}
+/* ------------------------------------ section__header ------------------------------------ */
+.section__header{
+    grid-row: 1;
+}
+.div__header{
+    /* background: red; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: auto;
+    height: 141px;
+}
+.div__aqua{
+    /* background: green; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    background: var(--color-1);
+    border-radius: 0 48px 48px 0; 
+
+    width: 298px;
+    height: 96px;
+}
+.div__aqua a{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 48px;
+    color: var(--color-2);
+    gap: 7px;
+    margin-left: 47px;
+
+    text-decoration: none;
+}
+.div__aqua img{
+    
+}
+.div__navigation{
+    /* background: blue; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    border-bottom: 1px solid var(--color-7);
+    width: 732px;
+    height: 38px;
+}
+.div__navigation a{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 24px;
+    color: var(--color-1);
+
+    text-decoration: none;
+}
+.div__issue{
+    /* background: violet; */
+    display: flex;
+
+    gap: 28px;
+    margin-right: 37px;
+    width: 103px;
+    height: 40px;
+}
+.div__issue img{
+    
+}
+/************************************************************************************/
+/* --------------------------- section__initianDescription -------------------------- */
