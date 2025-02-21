@@ -9,9 +9,9 @@ body{
     width: 1440px;
     height: 3911px;
 }
-/* ------------------------------------- Main ------------------------------------- */
+/* ------------------------------------------ Main ----------------------------------------- */
 main{
-    background: var(--color-3);
+    /* background: var(--color-3); */
     display: grid;
     grid-template-rows: 141px 687px 355px 1330px 829px 993px;
     grid-template-areas:"section__header"
@@ -22,6 +22,7 @@ main{
     "section__About-us"
     ;
 }
+/*********************************************************************************************/
 /* ------------------------------------ section__header ------------------------------------ */
 .section__header{
     grid-row: 1;
@@ -88,5 +89,83 @@ main{
 .div__issue img{
     
 }
-/************************************************************************************/
-/* --------------------------- section__initianDescription -------------------------- */
+/*********************************************************************************************/
+/* --------------------------- section__initianDescription --------------------------------- */
+.section__initianDescription{
+    /* background: red; */
+    grid-row: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.div__logo{
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    width: 707px;
+    height: 592px;
+}
+.div__logo img{
+    
+}
+.div__logo h3{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 56.4px;
+    color: var(--color-1);
+}
+.div__logo p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 26px;
+    color: var(--color-1);
+}
+.div__buy{
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 494.01px;
+    height: 542px;
+}
+.div__buy img{
+
+}
+#photo{
+
+}
+#cart{
+    width: 30px;
+    height: 30px;
+}
+.div__buy a{
+    background: var(--color-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -65px;
+    margin-left: 70px;
+    gap: 7px;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 40px;
+    color: var(--color-2);
+    text-decoration: none;
+    width: 237px;
+    height: 54px;
+    border-radius: 31.5px;
+}.div__buy p{
+    
+}
+.div__social-networks{
+    /* background: violet; */
+    margin-top: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    width: 82px;
+    height: 218px;
+}
+.div__social-networks img{
+    
+}
